@@ -1,5 +1,6 @@
 version: 2
 jobs:
+  type: approval
   build:
     working_directory: ~/circleci-demo-python-django
     docker:
