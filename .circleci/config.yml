@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     working_directory: ~/circleci-demo-python-django
-    docker:
     type: approval
+    docker:
       - image: circleci/python:3.6.4
         environment:
           PIPENV_VENV_IN_PROJECT: true
